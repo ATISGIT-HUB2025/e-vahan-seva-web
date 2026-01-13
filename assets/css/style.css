@@ -67,7 +67,9 @@ body {
   background: var(--impl-primary-color);
   min-height: 150px;
 }
-
+.section-padding {
+  padding: 50px 0;
+}
 a,
 a:hover,
 a:focus,
@@ -1335,6 +1337,7 @@ body.menu-open {
   border-radius: var(--impl-border-radius);
   padding: 25px 0;
   cursor: pointer;
+  border: 1px solid #f0f0f0;
 }
 
 .impl_testi_shape {
@@ -1398,7 +1401,7 @@ body.menu-open {
 .impl_video_content {
   position: relative;
   margin-left: auto;
-  background-image: url(../images/video_bg.png);
+  background-image: url(../images/video.png);
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
@@ -2867,4 +2870,31 @@ input[type="file"] {
   justify-content: center;
   align-items: center;
   text-align: center;
+}
+
+.ads-section {
+  background: linear-gradient(
+    to bottom,
+    #eff9ff 0%,
+    /* very light blue (top) */ #b9dcff 50%,
+    /* your main blue (middle) */ #1b2f6b00 100% /* deep dark blue (bottom) */
+  );
+}
+
+.impl_brands_box {
+  border: 1px solid #eeeeee;
+  border-radius: var(--impl-border-radius);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+  background-color: var(--impl-white-color);
+  box-shadow: var(--impl-box-shadow);
+}
+
+.impl_brands_box h5 {
+  color: #000;
+  font-size: 14px;
 }

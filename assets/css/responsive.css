@@ -473,7 +473,10 @@
     padding: 40px 0;
   }
   .impl_section_heading {
-    margin-bottom: 0;
+    margin-bottom: 35px;
+  }
+  .service-box {
+    border-radius: 10px;
   }
   .impl_btn {
     min-width: fit-content;
