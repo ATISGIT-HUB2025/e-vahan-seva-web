@@ -148,6 +148,7 @@
   .impl_type_slider .swiper-button-prev {
     left: 0;
   }
+
   .impl_ad_img {
     max-width: 280px;
   }
@@ -481,6 +482,9 @@
   .impl_btn {
     min-width: fit-content;
     min-height: 40px;
+  }
+  .curve-line {
+    display: none;
   }
   .impl_preheader_content {
     justify-content: space-between;
