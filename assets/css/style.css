@@ -2683,6 +2683,7 @@ body.menu-open {
 
 .impl_sell_tab li a h6 {
   color: var(--impl-heading-color);
+  font-size: 10px;
 }
 
 .impl_sell_pane {
@@ -3262,4 +3263,162 @@ input[type="file"] {
 
 .rating {
   font-size: 14px;
+}
+
+.otp-input {
+  width: 45px;
+  height: 45px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.brand-box {
+  padding: 10px;
+  border-radius: 10px;
+  background: #fff;
+  border: 1px dotted #000;
+}
+
+.brand-box {
+  border: 1px solid #ddd;
+  padding: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.brand-box.active {
+  border-color: #000;
+  background: #f8f9fa;
+  box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.1);
+}
+
+.impl_btn.disabled {
+  pointer-events: none;
+  opacity: 0.5;
+}
+
+.pkg-card {
+  position: relative;
+  border-radius: 20px;
+  padding: 30px 20px;
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(10px);
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.35s ease;
+  border: 1px dotted #000;
+}
+
+.pkg-card:hover {
+  transform: translateY(-8px) scale(1.02);
+}
+
+.pkg-card ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+.pkg-card ul li {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.pkg-header {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.pkg-price {
+  font-size: 36px;
+  font-weight: 800;
+  margin: 10px 0;
+  color: #000;
+}
+
+.silver {
+  color: #6b7280;
+}
+.gold {
+  color: #d97706;
+}
+.platinum {
+  color: #111827;
+}
+
+.pkg-card.active {
+  border: 2px solid #000;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+}
+
+.popular {
+  background: linear-gradient(145deg, #fff7ed, #ffffff);
+}
+
+.popular-badge {
+  position: absolute;
+  top: -14px;
+  right: 20px;
+  background: #000;
+  color: #fff;
+  font-size: 12px;
+  padding: 5px 14px;
+  border-radius: 30px;
+}
+
+.impl_btn.disabled {
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+.sell-vehicle-box {
+  border-radius: 10px;
+  background: #fff;
+  border: 1px dotted #000;
+  padding: 10px;
+}
+
+.sell-login-box {
+  border-radius: 10px;
+  background: #fff;
+  border: 1px dotted #000;
+  display: flex;
+  padding: 10px;
+  align-items: center;
+  gap: 25px;
+}
+
+.sell-login-box-info h6 {
+  color: #000;
+  font-size: 12px;
+  font-weight: bold;
+  margin-bottom: 6x;
+}
+.sell-login-box-info p {
+  color: #000;
+  font-size: 10px;
+}
+
+.post-business-box {
+  border-radius: 10px;
+  border: 1px dotted #000;
+  text-align: center;
+  padding: 25px;
+  background-color: var(--impl-white-color);
+  box-shadow: 0px 4px 10px 0px #00000017;
+}
+
+.post-business-box:hover {
+  transform: translateY(-8px) scale(1.02);
+  transition: all 0.35s ease;
+  cursor: pointer;
+}
+.post-business-box a {
+  color: #000;
+  font-weight: bold;
+  font-size: 16px;
 }
