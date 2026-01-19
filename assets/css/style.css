@@ -429,6 +429,30 @@ body.menu-open {
   transform: scale(0.95);
 }
 
+.read_btn {
+  min-height: 35px;
+  border-radius: 3px;
+  min-width: 100px;
+  font-size: 12px;
+  font-weight: bold;
+  width: fit-content;
+  color: #000;
+  padding: 5px 15px;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  line-height: normal;
+  white-space: nowrap;
+  border: 1px solid #cdcdcd;
+}
+
+.read_btn:hover {
+  transform: scale(0.95);
+}
+
 /********************************************************
     Pre Header Section Style
 ********************************************************/
@@ -3421,4 +3445,91 @@ input[type="file"] {
   color: #000;
   font-weight: bold;
   font-size: 16px;
+}
+
+.service-card-box {
+  padding: 10px;
+  border: 1px dotted #000;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0px 4px 10px 0px #00000017;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.service-img {
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+.service-img img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  object-fit: fill;
+}
+
+.service-box-info h4 {
+  color: #000;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 6x;
+}
+.service-box-btn {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: space-between;
+}
+
+.offer_box {
+  border: 1px dotted #000;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+  background-color: var(--impl-white-color);
+  box-shadow: 0px 4px 10px 0px #00000017;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.offer_box h5 {
+  color: #000;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10x;
+}
+
+.offer_box p {
+  color: #000;
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+.offer_box ul li {
+  color: #000;
+  font-size: 12px;
+  list-style: disc;
+  margin-left: 15px;
+  margin-bottom: 10px;
+}
+.offer_box ul li::marker {
+  color: #000;
+}
+
+.offer-info-box {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 12px;
+}
+
+.offer-box-footer {
+  background: rgba(0, 0, 255, 0.094);
+  padding: 10px;
+  color: #000;
+  font-weight: bold;
 }
