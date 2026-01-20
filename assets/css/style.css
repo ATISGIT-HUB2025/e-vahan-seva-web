@@ -3533,3 +3533,62 @@ input[type="file"] {
   color: #000;
   font-weight: bold;
 }
+
+.service-btn {
+  background: #fff;
+  border: 1px solid #000;
+  color: #000;
+  padding: 15px 20px;
+  border-radius: 30px;
+  font-weight: bold;
+  margin: 10px;
+}
+
+.service-btn:hover {
+  background: #000;
+  border: 1px solid #000;
+  color: #fff;
+  padding: 15px 20px;
+  border-radius: 30px;
+  font-weight: bold;
+  margin: 10px;
+}
+
+.fastag-card {
+  max-width: 100%;
+  background: #fff;
+  border-radius: 18px;
+  padding: 16px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+  font-family: "Segoe UI", sans-serif;
+}
+
+.card-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tag-number {
+  font-weight: 700;
+  margin-bottom: 2px;
+}
+
+.bank-name {
+  font-size: 13px;
+  color: #777;
+}
+
+.badge {
+  padding: 6px 12px;
+  border-radius: 12px;
+  font-size: 12px;
+  font-weight: 600;
+  background: #6f8fff;
+}
+
+.action-buttons {
+  display: flex;
+  gap: 12px;
+  margin: 20px 0;
+}
