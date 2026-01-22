@@ -2455,7 +2455,6 @@ body.menu-open {
 
 .impl_blog_image {
   overflow: hidden;
-  border-radius: var(--impl-border-radius);
 }
 
 .impl_blog_full li {

@@ -384,7 +384,7 @@
     justify-content: center;
   }
   .impl_header_btn {
-    display: none;
+    display: block;
   }
   .impl_banner_wrapper {
     padding: 50px 0;
@@ -464,6 +464,10 @@
   }
   h5 {
     font-size: 18px;
+  }
+
+  .action-buttons {
+    flex-wrap: wrap;
   }
   h6,
   .impl_footer_heading h6,
