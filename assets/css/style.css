@@ -2397,8 +2397,8 @@ body.menu-open {
 }
 
 .table-responsive .table > thead tr th {
-  font-size: 18px;
-  padding: 15px 0;
+  font-size: 11px;
+  padding: 15px 10px;
   border-bottom: 1px solid var(--impl-primary-color);
   color: var(--impl-heading-color);
   white-space: nowrap;
@@ -3652,4 +3652,75 @@ input[type="file"] {
   .service-category-card-grid {
     grid-template-columns: repeat(7, 1fr);
   }
+}
+
+.user-dash-box {
+  background: #fff;
+  border-radius: 14px;
+  padding: 20px;
+  height: 100%;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+}
+
+.user-tabs .nav-link {
+  color: #555;
+  padding: 12px 15px;
+  /* border-radius: 10px; */
+  margin-bottom: 6px;
+  font-weight: bold;
+  font-size: 12px;
+  border-bottom: 1px dotted #00000033;
+}
+
+.user-tabs .nav-link:hover {
+  background: #f5f7fa;
+}
+
+.user-tabs .nav-link.active {
+  background: #e8f5e9;
+  color: #2e7d32;
+}
+
+.dash-box {
+  background: #fff;
+  border-radius: 14px;
+  padding: 10px;
+  width: 100%;
+  height: 100%;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+  border: 1px solid #f2f2f2;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.dash-box i {
+  color: var(--impl-white-color);
+  background-color: var(--impl-hover-color);
+  padding: 5px;
+  border-radius: 100px;
+  font-size: 12px;
+}
+
+.dash-box-info h4 {
+  font-size: 12px;
+  font-weight: bold;
+  color: #000;
+}
+.dash-box-info p {
+  font-size: 16px;
+  font-weight: bold;
+  color: var(--impl-primary-color);
+}
+
+.booking-list {
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+  border: 1px solid #f2f2f2;
+  margin-bottom: 10px;
+  transition: all 0.35s ease;
+  cursor: pointer;
+}
+
+.my-vehicle-showrrom-table {
+  font-size: 12px !important;
 }
